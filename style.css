@@ -1,27 +1,72 @@
 @charset "UTF-8";
 
+:root {
+    --height-header-elem: 10px;
+    --width-nav-max: 1000px;
+    --width-nav-min: 300px;
+    --width-nav-std: 80%;
+    --width-logo: 30%;
+}
+
 body {
     margin: 0px;
 }
 
 header {
     background-color: blanchedalmond;
-    min-height: 50px;
-    padding: auto;
+    min-height: 100px;
+}
+
+header>nav {
+    width: var(--width-nav-std);
+    min-width: var(--width-nav-min);
+    max-width: var(--width-nav-max);
+
+    margin: auto;
+}
+
+header>nav>div {
+    display: inline;
+    width: var(--width-logo);
+}
+
+header>nav>ul {
+    width: calc(100% - var(--width-logo));
+}
+
+header>nav>ul>li {
+    display: inline;
+    margin: 0px 10px
 }
 
 footer {
     background-color: blanchedalmond;
 }
 
-header>nav>div {
-    display: inline;
+
+
+/* *********************************** */
+/* *********************************** */
+/*                                     */
+/* CLASSES PERSONALIZADAS E UNIVERSAIS */
+/*                                     */
+/* *********************************** */
+/* *********************************** */
+
+.caixa-meio-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header>nav>ul {
-    display: inline;
+.caixa-meio-esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
-header>nav>ul>li {
-    display: inline;
+.caixa-meio-direita {
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
