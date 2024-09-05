@@ -3,7 +3,7 @@
 :root {
     --height-header-elem: 10px;
     --width-nav-max: 1000px;
-    --width-nav-min: 300px;
+    --width-nav-min: 250px;
     --width-nav-std: 80%;
     --width-logo: 30%;
 }
@@ -39,6 +39,10 @@ header>nav>ul>li {
     margin: 0px 10px
 }
 
+
+
+
+
 footer {
     background-color: blanchedalmond;
 }
@@ -69,4 +73,61 @@ footer {
     display: flex;
     align-items: center;
     justify-content: right;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.conteiner-pequeno {
+    display: block;
+    width: 40%;
+    min-width: 70px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.conteiner-medio {
+    display: block;
+    width: 60%;
+    min-width: 150px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.conteiner-grande {
+    display: block;
+    width: var(--width-nav-std);
+    min-width: var(--width-nav-min);
+    max-width: var(--width-nav-max);
+    margin: auto;
+}
+
+.conteiner-inline-pequeno {
+    display: inline;
+    width: 40%;
+    min-width: 70px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.conteiner-inline-medio {
+    display: bloinlineck;
+    width: 60%;
+    min-width: 150px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.conteiner-inline-grande {
+    display: inline;
+    width: var(--width-nav-std);
+    min-width: var(--width-nav-min);
+    max-width: var(--width-nav-max);
+    margin: auto;
 }
