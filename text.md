@@ -59,7 +59,7 @@ Bloco de código
 
 ## 3. TOP1
 
-daisduabsd ashda sjda sas daus dasj askgda shgda sdh asdas daghs dasd ashjd alsjh dalsj asjgd ashd asj aslja sljda sdjgas dklasg dasbd ajsgd asgh dajs daljsg dalsj da
+daisduabsd ashda sjda sas daus dasj[^1] askgda shgda sdh asdas daghs dasd ashjd alsjh dalsj asjgd ashd asj aslja sljda sdjgas dklasg dasbd ajsgd asgh dajs daljsg dalsj da
 
 a sdias ash dasdy asouyd as dashd açksh dashd asda sdkahs dasd
 
@@ -85,3 +85,4 @@ sjdfbsdkfsldjfhs dfs dflsjhdf sjdf sdfjshd fçskdhf sdjhf sldjf sldjfs dçfhs df
 
 
 
+[^1]: Footnote
